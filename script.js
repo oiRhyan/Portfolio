@@ -322,11 +322,17 @@ chk.addEventListener("change", function IConesCores() {
   var whatsapp = window.document.querySelector("#whatsapp");
   var github = window.document.querySelector("#github");
   var instagram = window.document.querySelector("#instagram");
+  let WhatIF = window.document.querySelector('.WhatIf');
+  let EriOn = window.document.querySelector('.Erion');
+  let Bicik = window.document.querySelector('.Bicik');
   if (chk.checked == true) {
     linkedin.style.color = "#121212";
     whatsapp.style.color = "#121212";
     github.style.color = "#121212";
     instagram.style.color = "#121212";
+    WhatIF.style.background = "rgba(255, 255, 255, 0.2)";
+    EriOn.style.background = "rgba(255, 255, 255, 0.2)";
+    Bicik.style.background = "rgba(255, 255, 255, 0.2)";
     linkedin.addEventListener("mouseenter", function () {
       linkedin.style.color = "rgba(3, 255, 159, 0.932)";
     });
@@ -369,6 +375,9 @@ chk.addEventListener("change", function IConesCores() {
     instagram.addEventListener("mouseleave", function () {
       instagram.style.color = "#ffff";
     });
+    WhatIF.style.background = "rgba(18, 18, 18, 0.2)";
+    EriOn.style.background = "rgba(18, 18, 18, 0.2)";
+    Bicik.style.background = "rgba(18, 18, 18, 0.2)";
   }
 });
 

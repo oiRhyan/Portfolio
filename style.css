@@ -515,6 +515,7 @@ transition: transform 0.2s linear;
     opacity: calc(100%);
     transform: translate(-50%, -50%);
     z-index: 0;
+    transition: ease-in-out 0.5s;
 }
 
 .erionlastimage{
@@ -715,6 +716,7 @@ li{
         opacity: calc(100%);
         transform: translate(-50%, -50%);
         z-index: 0;
+        transition: ease-in-out 0.5s;
 }
 
 #whatif3{
@@ -788,6 +790,7 @@ li{
     opacity: calc(100%);
     transform: translate(-50%, -50%);
     z-index: 0;
+    transition: ease-in-out 0.5s;
 }
 #return_bicik{
     position: absolute;
