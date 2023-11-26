@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title> Prototype </title>
+</head>
+<body>
+<div class="superior-part">
+<div class="relogio">
+    <h3 id="clock-time"> 0 : 00 AM </h3>
+</div>
+<div class="perfil">
+</div>
+<div class="darkmode">
+    <input type="checkbox" class="checkbox" id="chk"/>
+    <label for="chk" class="label">
+        <div class="moon">
+        <i class="gg-moon"></i>
+        </div>
+        <div class="sun">
+        <i class="gg-sun"></i>
+        </div>
+        <div class="ball">
+        </div>
+    </label>
+</div>
+</div>
+<input type="radio" name="dashbar" id="home" class="off">
+<input type="radio" name="dashbar" id="projects" class="off">
+<input type="radio" name="dashbar" id="info" class="off">
+<input type="radio" name="dashbar" id="contact" class="off">
+<nav class="dash" id="menu">
+<div class="fig1">
+    <label for="home" id="label1"> <i class="gg-home-alt"></i> </label>
+</div>
+<div class="fig2">
+    <label for="projects" id="label2"> <i class="gg-folder"></i> </label>
+</div>
+<div class="fig3">
+    <label for="info" id="label3" > <i class="gg-clipboard"></i> </label>
+</div>
+<div class="fig4">
+    <label for="contact" id="label4"> <i class="gg-voicemail"></i> </label>
+</div>
+</div>
+</nav> 
+<div id="main" class="animate__animated animate__fadeIn">
+    <div id="background_rhyan" class="animate__animated animate__fadeIn">
+    <video autoplay loop muted id="background">
+        <source src="../videos/Rhyan Background.mp4" type="video/mp4">
+    </video>
+    <video autoplay loop muted id="background_responsive">
+        <source src="../videos/background_responsivo.mp4" type="video/mp4">
+    </video>
+    <img src="../imgs/default_remastered.png" id="text_logo">
+    </div>
+    <div class="contatos">
+        <a href="https://www.linkedin.com/in/rhyan-araujo-chaves" target="_blank">
+            <i class="fa-brands fa-linkedin" id="linkedin"></i>
+        </a>
+        <a href="https://wa.me/5511984793655?text=Mande+uma+mensagem+" target="_blank">
+            <i class="fa-brands fa-whatsapp" id="whatsapp"></i>
+        </a>
+        <a href="https://github.com/oiRyder" target="_blank">
+            <i class="fa-brands fa-github" id="github"></i>
+        </a>
+        <a href="https://www.instagram.com/eiryder/" target="_blank">
+            <i class="fa-brands fa-instagram" id="instagram"></i>
+        </a>
+    </div>
+    <div class="projetorecente">
+        <img src="../imgs/erionremaster.jpg" id="projeto">
+        <h1 id="projetotexto"> Confira meu projeto mais recente! </h1>
+        <h2 id="projeto-texto-sub"> Erion, criado para simular uma blockchain, utilizando Python com a SHA-256 ele é capaz de registrar transferências de criptomoedas além de converter em tabelas Excel. </h2>
+        <button class="botao"> VEJA MAIS </button>
+    </div>
+    <div class="welcome">
+        <h1 id="novidades-texto">
+            • Ultimas Novidades!
+        </h1>
+        <h2 id="novidades-subtexto">
+            " Olá e bem-vindo ao meu portfólio! Sou um entusiasta da tecnologia e um programador Full Stack iniciante em busca de uma oportunidade de estágio. Meu portfólio é recente, e estou animado para compartilhar minha jornada de aprendizado e crescimento contigo. Meu objetivo é aplicar minha paixão pela programação e minha vontade de aprender para contribuir de forma significativa em projetos desafiadores. Sinta-se à vontade para explorar mais e conhecer mais sobre mim e minhas habilidades. Este é o começo de uma emocionante jornada de desenvolvimento, e estou ansioso para aprender, crescer e colaborar. Vamos construir algo incrível juntos!"<br><br>
+            - @eiryder 
+        </h2>
+        <button class="botao2"> SOBRE MIM </button>
+    </div>
+</div>
+<div id="projetos" class="animate__animated animate__fadeIn">
+    <div class="projeto1">
+        <h1 class="texto">
+            • Linguagem de Programação utilizada:
+        </h1>
+        <i class="fa-brands fa-unity" id="unity"></i>
+        <h1 class="csharp"> C#</h1>
+        <h2 class="infos">
+            Este projeto foi desenvolvido como um jogo de paltaforma mobile baseado na biblioteca Unity usando CSharp, este jogo foi criado durante o TCC do Curso Técnico em Informática na Instituição ETEC alcançando a nota máxima no final de seu desenvolvimento, além de estar atualmente disponivel para download nos dispositivos móveis Android.
+        </h2>
+        <button id="transferwhatif">
+            SAIBA MAIS
+        </button>
+        <img src="../imgs/whatif-mobile.jpg" id="whatif2">
+    </div>
+    <img src="../imgs/whatifbanner.jpg" id="whatif">
+    <div class="projeto2">
+        <h1 class="texto" id="prj2">
+            • Linguagem de Programação utilizada:
+        </h1>
+        <i class="fa-brands fa-html5" id="html"></i>
+        <i class="fa-brands fa-css3-alt" id="unity2"></i>
+        <i class="fa-brands fa-square-js" id="unity3"></i>
+        <h2 class="infos" id="info2">
+            Este projeto foi desenvolvido no meu primeiro semestre da faculdade de Ciência da Computação, foi desenvolvido visando utilizar as funcionalidades técnicas de HTML, CSS e Javascript por meio do DOM. O projeto se trata de uma startup conceitual a qual visa o aluguel de bicicletas na sociedade baseado no sistema de aluguel de bike do Itaú.
+        </h2>
+        <button id="transferbicik">
+            SAIBA MAIS
+        </button>
+        <img src="../imgs/bicik-mobile.jpg" id="bicik2">
+    </div>
+    <img src="../imgs/bicikbanner.jpg" id="bicik">
+    <div class="projeto3">
+        <h1 class="texto" id="prj3">
+            • Linguagem de Programação utilizada:
+        </h1>
+        <i class="fa-brands fa-python" id="python"></i>
+        <h2 class="infos" id="info3">
+            Este projeto foi desenvolvido no segundo semestre da faculdade, se trata de um protótipo de transferidor de criptomoedas baseado na criptografia SHA-256 utilizando bibliotecas como Customtkinter e Hashlib, o projeto foi desenovlvido totalmente do zero e atualmente é capaz de converter históricos de transferências em tabelas Excel e bancos de dados em SQL.
+        </h2>
+        <button id="transfererion">
+            SAIBA MAIS
+        </button>
+        <img src="../imgs/erion-mobile.jpg" id="erion2">
+    </div>
+    <img src="../imgs/erionremaster.jpg" id="erion">
+</div>
+<div id="sobremim" class="animate__animated animate__fadeIn">
+    <div class="dados">
+    <img class="logo-perfil" src="/imgs/AM/new-icon.jpg">
+    <h1 class="tecnologias"> • Experiências Atuais </h1>
+    <div class="icons1">
+        <i class="fa-brands fa-html5" id="html2" itemid="html2"></i>
+        <i class="fa-brands fa-css3-alt" id="css2"></i>
+        <i class="fa-brands fa-square-js" id="javascript2"></i>
+        <i class="fa-brands fa-python" id="python2"></i>
+    </div>
+    <h1 class="tecnologias" id="text4"> • Experiências Futuras </h1>
+    <div class="icons1">
+        <i class="fa-brands fa-react" id="react"></i>
+        <i class="fa-brands fa-java" id="edit3"></i>
+        <img src="/imgs/bgdadoslogo.png" class="bgdados" id="bgdado">
+        <h1 class="cmais"> C# </h1>
+    </div>
+    <button class="btn"> Repositório do GITHUB </button>
+    </div>
+    <div class="logos">
+        <h2 class="logo-info"> INSTITUIÇÕES POR ONDE PASSEI </h2>
+        <div class="logospace">
+            <img class="imagelogo" src="/imgs/etec.png" id='etec'>
+            <img class="imagelogo" src="/imgs/unip.png" id="unip">
+            <img class="imagelogo" src="/imgs/SENAI_branca.png" id="senai">
+            <img class="imagelogo" src="/imgs/FIAP-WHITE-1.png" id="fiap"> 
+        </div>
+    </div>
+    <div class="base">
+        <h1 class="academicotexto"> Habilidades e Formações  </h1>
+        <h2 class="texto5" id="t1"> - Granduando em Ciência da Computação - 3° semestre</h2>
+        <h2 class="texto5" id="t2"> - Técnico em Informática </h2>
+        <h2 class="texto5" id="t3"> - Automatização de Processos com Python </h2>
+        <h2 class="texto5" id="t4"> - Metodologias e Técnicas de User Experience e Implementação de Sites </h2>
+        <h2 class="suportexto"> - Automação de Processos e Criação de interface com Python<br>- Criação de Landing Page e Sites completos<br>- Gerenciamento de Sistemas Operacionais<br>- Analise de Redes e Pentest com Kali Linux</h2>
+    </div>
+    <div class="finaltexto">
+        <h1 class="titulo"> Sobre Mim </h1>
+        <h2 class="texto6"> "  Olá! Meu nome é Rhyan, e ao longo do último ano, mergulhei de cabeça na fascinante jornada da programação. Com meus 19 anos de idade, estou ansioso para ampliar meus horizontes e encontrar oportunidades de estágio ou emprego fixo, enquanto simultaneamente me aventuro pelo dinâmico mercado freelance em busca de novas experiências.<br><br>Minha paixão pela programação começou de forma desafiadora, mexendo com sistemas leves em celulares quebrados e Androids antigos. A exploração do mundo do Root e outras formas de modificação de sistemas operacionais despertou meu interesse e me impulsionou a me aprofundar ainda mais nesse universo tecnológico.<br><br>Ao longo desse percurso, evolui de um entusiasta para um técnico em informática, adquirindo conhecimentos sólidos e habilidades práticas na solução de problemas e na manutenção de sistemas. Atualmente, estou trilhando meu caminho como programador full stack, buscando compreender e dominar as nuances tanto do desenvolvimento front-end quanto do back-end.<br><br> Além do fascínio pelo código, tenho outras paixões que equilibram minha vida. O basquete é uma delas, proporcionando-me não apenas uma forma de exercício físico, mas também uma fonte de inspiração para superar desafios. A música é outra paixão que permeia minha jornada, adicionando ritmo e inspiração aos meus dias. "</h2>
+    </div>
+</div>
+<div id="contato" class="animate__animated animate__fadeIn">
+    <div class="formulario">
+        <h1 id="tituloformulario"> Fale Comigo! </h1>
+        <h2 id ="subtituloformulario"> Atualmente estou disponível para novos desafios e oportunidades de freelances e estágio. Estou pronto para contribuir com meu conhecimento e habilidades em projetos empolgantes.</h2>
+        <form action="https://formsubmit.co/rhyanaraujochaves@gmail.com" method="POST" id="formulariodecontato" class="form">
+            <input type="text" name="nome" id="nome" class="input" placeholder="Nome " required/>
+            <input type="email" name="email" id="email" class="input" required placeholder="Email "/>
+            <input type="hidden" name="_subject" value="Proposta Nova!">
+            <textarea name="message" placeholder="Mensagem" id="areadotexto" ></textarea>
+            <input type="hidden" name="_next" value="https://rhyan-fodao-portfolio.netlify.app">
+            <button type="submit" id="enviar"> Enviar </button>
+        </form>
+        <div class="encerrando">
+            <h1 class="encerrandotexto"> Outros Meios de Contato </h1>
+            <div class="backtextos">
+            <i class="fa-solid fa-envelope" id="emailogo"><h2 id="emailtexto"> rhyanaraujochaves@gmail.com </h2></i>
+            <i class="fa-brands fa-square-whatsapp" id="whatsapp2"><h2 id="whatsapptexto"> (11) 98479-3655 </h2> </i>
+            <i class="fa-brands fa-square-instagram" id="instagram2"><h2 id="instagramtexto"> @eiryder </h2></i>
+            <i class="fa-brands fa-linkedin" id="linkedin2"><h2 id="linkedintexto"> Rhyan Araujo Chaves </h2></i>
+            <i class="fa-brands fa-square-github" id="github2"><h2 id="githubtexto"> oiRyder </h2></i>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="Erion">
+    <i class="fa-solid fa-circle-chevron-left" id="return"></i>
+    <div class="conteudo">
+        <div class="slider slide-show">
+            <div><img src="imgs/erionremaster.jpg" class="destaque"></div>
+            <div><img src="imgs/AM/Erion-image-1.png" class="destaque2"></div>
+            <div><img src="imgs/AM/Erion-image-2.png" class="destaque2"></div>
+            <div><img src="imgs/AM/Erion-image-3.png" class="destaque2"></div>
+            <div><img src="imgs/AM/Erion-image-4.png" class="destaque2"></div>
+            <div><img src="imgs/AM/Erion-image-5.png" class="destaque2"></div>
+        </div>
+        <div class="slider slider-nav">
+            <div><img src="imgs/erionremaster.jpg" class="selecao"></div>
+            <div><img src="imgs/AM/Erion-image-1.png" class="selecao2"></div>
+            <div><img src="imgs/AM/Erion-image-2.png" class="selecao2"></div>
+            <div><img src="imgs/AM/Erion-image-3.png" class="selecao2"></div>
+            <div><img src="imgs/AM/Erion-image-4.png" class="selecao2"></div>
+            <div><img src="imgs/AM/Erion-image-5.png" class="selecao2"></div>
+        </div>
+    </div>
+    <div class="infos-prototipo">
+        <h1 class="infos-Texto">
+            Erion : Blockchain Simulator
+        </h1>
+        <h2 class="infos-SubTexto">
+            Usando a criptografia SHA-256 este projeto foi desenvolvido para simular transferências de criptomoedas com segurança e automatizar processos de lista. Sua interface e funcionalidas foram desenvolvidas em Python e atualmente suportam a conversão de registros em tabelas Excel futuramente sendo capaz de converter os mesmos dados em bancos SQL. As Hashs se asseguram de ter um valor alto o suficiente para fazer a conversão além de possuirem um Nonce exclusivo em cada transferência.
+        </h2>
+        <h3 class="tecno">
+            Linguagens utilizadas : <i class="fa-brands fa-python" id="python3"><h3 class="titulo-tecno">Python™</h3></i>
+        </h3>
+        <button type="button" id="diretorio"> Diretório </button>
+        <button type="button" id="download"> Download  </button>
+    </div>
+    <img src="imgs/erion-mobile.jpg" class="erionlastimage">
+</div>
+<div class="WhatIf">
+    <i class="fa-solid fa-circle-chevron-left" id="return_whatif"></i>
+    <div class="conteudo">
+        <div class="slider slide-show">
+            <div>
+                <video poster="imgs/whatifbanner.jpg" class="destaque" id="whatif3" controls>
+                    <source src="videos/c4ad4fdb-981e-42a4-8e10-f4af4c246b70.webm" type="video/webm">
+                </video>
+            </div>
+            <div><img src="imgs/AM/what-if-2.jpg" class="destaque2" id="print"></div>
+            <div><img src="imgs/AM/what-if-3.jpg" class="destaque2" id="print2"></div>
+            <div><img src="imgs/AM/what-if-4.jpg" class="destaque2" id="print2"></div>
+            <div><img src="imgs/AM/what-if-5.jpg" class="destaque2" id="print2"></div>
+        </div>
+        <div class="slider slider-nav">
+            <div><img src="imgs/whatifbanner.jpg" class="selecao" id="whatifselected"></div>
+            <div><img src="imgs/AM/what-if-2.jpg" class="selecao2"></div>
+            <div><img src="imgs/AM/what-if-3.jpg" class="selecao2"></div>
+            <div><img src="imgs/AM/what-if-4.jpg" class="selecao2" id="espaco"></div>
+            <div><img src="imgs/AM/what-if-5.jpg" class="selecao2" id="espaco2"></div>
+        </div>
+    </div>
+    <div class="infos-prototipo">
+        <h1 class="infos-Texto">
+            What If World Ended
+        </h1>
+        <h2 class="infos-SubTexto" id="whatiftexto">
+            Desenvolvido para dispositivos móveis e em um futuro próximos para sistemas Windows, What If World Ended foi meu primeiro projeto na area de atuação de programação, utilizando a linguagem C# com a biblioteca Unity este jogo é capaz de renderizar luzes em tempo real além de calcular particulas de chuva e movimentações de frames em grande escala. Este protótipo foi apresentado no TCC do curso Técnico em Informatica e recebeu um grande destaque recebendo a nota maxima, futuramente o protótipo será expandido ganhando uma versão para dispositivos Windows.
+        </h2>
+        <h3 class="tecno" id="whatifinfos">
+            Linguagens utilizadas : <i class="fa-brands fa-unity" id="csharp2"><h3 class="titulo-tecno">C#</h3></i>
+        </h3>
+        <button type="button" id="diretorio"> Diretório </button>
+        <button type="button" id="download"> Download  </button>
+    </div>
+    <img src="imgs/whatif-mobile.jpg" id="whatif4">
+</div>
+<div class="Bicik">
+    <i class="fa-solid fa-circle-chevron-left" id="return_bicik"></i>
+    <div class="conteudo">
+        <div class="slider slide-show">
+            <div><img src="imgs/bicikbanner.jpg" class="destaque" id="bicikbanner"></div>
+            <div><img src="imgs/PM/bicik-remaster-1.png" class="destaque2"></div>
+            <div><img src="imgs/PM/bicik-remaster-2.png" class="destaque2"></div>
+            <div><img src="imgs/PM/bicik-remaster-3.png" class="destaque2"></div>
+            <div><img src="imgs/PM/bicik-remaster-4.png" class="destaque2"></div>
+            <div><img src="imgs/PM/bicik-remaster-5.png" class="destaque2"></div>
+        </div>
+        <div class="slider slider-nav">
+            <div><img src="imgs/bicikbanner.jpg" class="selecao"></div>
+            <div><img src="imgs/PM/bicik-remaster-1.png" class="selecao2"></div>
+            <div><img src="imgs/PM/bicik-remaster-2.png" class="selecao2"></div>
+            <div><img src="imgs/PM/bicik-remaster-3.png" class="selecao2"></div>
+            <div><img src="imgs/PM/bicik-remaster-4.png" class="selecao2"></div>
+            <div><img src="imgs/PM/bicik-remaster-5.png" class="selecao2"></div>
+        </div>
+    </div>
+    <div class="infos-prototipo">
+        <h1 class="infos-Texto">
+            Bicik : Alguel de Bikes
+        </h1>
+        <h2 class="infos-SubTexto">
+            O projeto Bicik se trata de uma startup ficticia de alguel de bicicletas baseado no sistema de aluguel de Bikes do Itáu, foi desenvolvido no meu primeiro semestre da faculdade com foco no desenvolvimento do Front-End básico utilizando HTML, CSS e JavaScript. Apesar de não possuir responsividade para todos os tamanhos de tela, o protótipo consta com diversos elemento de animações tais como Fade-In e Fade-Out além de muitos outros códigos baseados em JavaScript tornando uma experiência única.
+        </h2>
+        <h3 class="tecno">
+            Linguagens utilizadas : <i class="fa-brands fa-html5" id="html3"><i class="fa-brands fa-css3-alt" id="css3"><i class="fa-brands fa-square-js" id="javascript3"></i></i></i>
+        </h3>
+        <button type="button" id="diretorio"> Diretório </button>
+        <button type="button" id="download"> Download  </button>
+    </div>
+    <img src="imgs/bicik-mobile.jpg" class="biciklastimage">
+</div>
+<div class="notification" id="notificar">
+    <p> • Olá! 👋 Estou Disponivel para novas propostas! </p>
+    <span class="notification__progress"></span>
+</div>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/761bf3adde.js" crossorigin="anonymous"></script>
+</body>
+</html>
