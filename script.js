@@ -170,6 +170,9 @@ var returnbicik = document.querySelector('#return_bicik');
 var Bicik = document.querySelector('.Bicik');
 var transferbicik = document.querySelector('#transferbicik');
 var bicik2 = document.querySelector('#bicik2');
+let angelsTransfer = window.document.querySelector('#return-angels');
+let Angels = window.document.querySelector('.Angels');
+let transferAngels = window.document.querySelector('#transferangels');
 
 label2.addEventListener("click", function () {
   home.style.display = "none";
@@ -179,6 +182,7 @@ label2.addEventListener("click", function () {
   contato.style.display  = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
+  Angels.style.display = "none";
 });
 label1.addEventListener("click", function Home() {
   home.style.display = "block";
@@ -188,6 +192,7 @@ label1.addEventListener("click", function Home() {
   contato.style.display  = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
+  Angels.style.display = "none";
 });
 label3.addEventListener("click", function () {
   home.style.display = "none";
@@ -197,6 +202,7 @@ label3.addEventListener("click", function () {
   contato.style.display  = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
+  Angels.style.display = "none";
 });
 retorno.addEventListener("click", function () {
   home.style.display = "flex";
@@ -206,15 +212,17 @@ retorno.addEventListener("click", function () {
   contato.style.display  = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
+  Angels.style.display = "none";
 });
 ActivateErion.addEventListener("click", function () {
   home.style.display = "none";
-  ERion.style.display = "flex";
+  ERion.style.display = "none";
   Projetos.style.display = "none";
   SobreMim.style.display = "none";
   contato.style.display  = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
+  Angels.style.display = "flex";
 });
 perfil.addEventListener("click", function () {
   home.style.display = "none";
@@ -224,6 +232,7 @@ perfil.addEventListener("click", function () {
   contato.style.display  = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
+  Angels.style.display = "none";
 })
 botao2.addEventListener("click", function () {
   home.style.display = "none";
@@ -233,6 +242,7 @@ botao2.addEventListener("click", function () {
   contato.style.display  = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
+  Angels.style.display = "none";
 })
 label4.addEventListener("click", function () {
   home.style.display = "none";
@@ -242,6 +252,7 @@ label4.addEventListener("click", function () {
   contato.style.display  = "flex";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
+  Angels.style.display = "none";
 })
 botaoerion.addEventListener("click", function () {
   home.style.display = "none";
@@ -251,6 +262,7 @@ botaoerion.addEventListener("click", function () {
   contato.style.display  = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
+  Angels.style.display = "none";
 })
 retornowhatif.addEventListener("click", function () {
   home.style.display = "none";
@@ -260,6 +272,7 @@ retornowhatif.addEventListener("click", function () {
   contato.style.display  = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
+  Angels.style.display = "none";
 })
 transferwhatif.addEventListener("click", function () {
   home.style.display = "none";
@@ -269,6 +282,7 @@ transferwhatif.addEventListener("click", function () {
   contato.style.display  = "none";
   WhatIf.style.display = "flex";
   Bicik.style.display = "none";
+  Angels.style.display = "none";
 })
 whatif2.addEventListener("click", function () {
   home.style.display = "none";
@@ -278,6 +292,7 @@ whatif2.addEventListener("click", function () {
   contato.style.display  = "none";
   WhatIf.style.display = "flex";
   Bicik.style.display = "none";
+  Angels.style.display = "none";
 })
 erion.addEventListener("click", function () {
   home.style.display = "none";
@@ -287,6 +302,7 @@ erion.addEventListener("click", function () {
   contato.style.display  = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
+  Angels.style.display = "none";
 })
 returnbicik.addEventListener("click", function () {
   home.style.display = "none";
@@ -296,6 +312,7 @@ returnbicik.addEventListener("click", function () {
   contato.style.display  = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
+  Angels.style.display = "none";
 })
 transferbicik.addEventListener("click", function () {
   home.style.display = "none";
@@ -305,6 +322,7 @@ transferbicik.addEventListener("click", function () {
   contato.style.display  = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "flex";
+  Angels.style.display = "none";
 })
 bicik2.addEventListener("click", function () {
   home.style.display = "none";
@@ -314,7 +332,29 @@ bicik2.addEventListener("click", function () {
   contato.style.display  = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "flex";
+  Angels.style.display = "none";
 })
+angelsTransfer.addEventListener("click", function(){
+  home.style.display = "flex";
+  ERion.style.display = "none";
+  Projetos.style.display = "none";
+  SobreMim.style.display = "none";
+  contato.style.display  = "none";
+  WhatIf.style.display = "none";
+  Bicik.style.display = "none";
+  Angels.style.display = "none";
+})
+transferAngels.addEventListener("click", function(){
+  home.style.display = "none";
+  ERion.style.display = "none";
+  Projetos.style.display = "none";
+  SobreMim.style.display = "none";
+  contato.style.display  = "none";
+  WhatIf.style.display = "none";
+  Bicik.style.display = "none";
+  Angels.style.display = "flex"
+})
+
 /*Função separada para cores dos icones */
 
 chk.addEventListener("change", function IConesCores() {
@@ -732,6 +772,12 @@ chk.addEventListener("change", function IConesCores() {
     info4.style.color = '#121212';
     button4.style.color = '#FFFF';
     button4.style.background = '#121212';
+    button4.addEventListener('mouseenter', function(){
+      button4.style.background = 'rgba(3, 255, 159, 0.932)';
+    })
+    button4.addEventListener('mouseleave', function(){
+      button4.style.background = '#121212';
+    })
   }
   else {
     sass.style.color = '#FFFF';
@@ -746,5 +792,11 @@ chk.addEventListener("change", function IConesCores() {
     info4.style.color = '#FFFF';
     button4.style.color = '#121212';
     button4.style.background = '#FFFF';
+    button4.addEventListener('mouseenter', function(){
+      button4.style.background = 'rgba(3, 255, 159, 0.932)';
+    })
+    button4.addEventListener('mouseleave', function(){
+      button4.style.background = '#FFFF';
+    })
   }
 })

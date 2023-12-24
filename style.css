@@ -607,6 +607,20 @@ li{
     top: 20px;
 }
 
+
+#return-angels{
+    position: absolute;
+    color: rgba(243, 243, 243, 1);
+    font-size: 30px;
+    left: 20px;
+    top: 20px;
+}
+
+#return-angels:hover{
+    color: rgba(3, 255, 159, 0.932);
+}
+
+
 #return:hover{
     color: rgba(3, 255, 159, 0.932);
 }
@@ -684,6 +698,25 @@ li{
     border: none;
 }
 
+#diretorio2{
+    position: absolute;
+    font: bold 12px arial, sans-serif;
+    height: 50px;
+    width: 200px;
+    margin-top: 400px;
+    margin-left: 140px;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    background-color: white;
+    border: none;
+}
+
+#diretorio2:hover{
+    background-color: rgba(3, 255, 159, 0.932) ;
+    color: white;
+    border: none;
+}
+
 #download{
     position: absolute;
     font: bold 12px arial, sans-serif;
@@ -704,6 +737,54 @@ li{
 }
 #erion2{
     display: none;
+}
+
+.Angels{
+    position: absolute;
+    display: none;
+    background-color: rgba(18, 18, 18, 0.2);
+    height: 591px;
+    width: 1200px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 22px;
+    top: 50%;
+    left: 50%;
+    opacity: calc(100%);
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    transition: ease-in-out 0.5s;
+}
+
+#tecnonew{
+    position: relative;
+    margin-top: 100px;
+}
+
+#react2{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#sass3{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+#prisma2{
+    position: absolute;
+    height: 39px;
+    width: 50px;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+#nextjs3{
+    height: 15px;
+    width: 50px;
+    margin-left: 100px;
 }
 
 /* Fim da Area do Projeto Erion*/
@@ -843,6 +924,21 @@ li{
     left: 50%;
     transform: translate(-50%, -50%);
     overflow-x: scroll;
+    overflow-y: none;
+}
+
+#projetos::-webkit-scrollbar{
+        background: transparent;
+        border-radius: 2px;
+        width: 5px;
+        height: 5px;
+}
+
+#projetos::-webkit-scrollbar-thumb{
+        width: 5px;
+        height: 5px;
+        background-color: aqua;
+        border-radius: 10px;
 }
 
 .projeto1{
@@ -1128,7 +1224,7 @@ li{
     border: none;
 }
 
-#transfererangels:hover{
+#transferangels:hover{
     background-color: rgba(3, 255, 159, 0.932);
     color: white;
 }
@@ -2150,8 +2246,8 @@ li{
         width: 345px;
     }
     #projeto{
-        height: 190px;
-        margin-left: 11px;
+        height: 180px;
+        margin-left: 12px;
         margin-top: 10px;
     }
     #projetotexto{
@@ -2316,8 +2412,8 @@ li{
     
     }
     #react{
-        margin-top: 15px;
-        font-size: 40px;
+        margin-top: 10px;
+        font-size: 30px;
     }
     #edit2{
         
@@ -2334,6 +2430,7 @@ li{
     }
     
     .btn{
+        margin-top: -2px;
         margin-left: 65px;
     }
     .base{
@@ -3016,6 +3113,11 @@ li{
         height: 50rem;
         width: 35rem;
     }
+    .projeto4{
+        margin-left: 1720px;
+        height: 50rem;
+        width: 35rem;
+    }
     #whatif{
         margin-left: 30px;
         height: 300px;
@@ -3028,6 +3130,11 @@ li{
     }
     #erion{
         margin-left: 1170px;
+        height: 300px;
+        width: 520px;
+    }
+    #angels{
+        margin-left: 1740px;
         height: 300px;
         width: 520px;
     }
@@ -3051,6 +3158,11 @@ li{
         margin-top: 700px;
         margin-left: 180px;
     }
+
+    #transferangels{
+        margin-top: 700px;
+        margin-left: 180px;
+    }
     #unity{
         margin-top: 420px;
     }
@@ -3069,6 +3181,29 @@ li{
     }
     #python{
         margin-top: 420px;
+    }
+    #sass2{
+        margin-top: 420px;
+        margin-left: 115px;
+    }
+    #nextjs2{
+        height: 20px;
+        width: 90px;
+        margin-top: 434px;
+        margin-left: 190px;
+    }
+    #prisma{
+        height: 50px;
+        width: 58px;
+        margin-top: 420px;
+        margin-left: 2px;
+    }
+    #react3{
+        margin-top: 420px;
+        margin-left: 50px;
+    }
+    #return-angels{
+        font-size: 30px;
     }
     .csharp{
         margin-top: 415px;
@@ -3101,6 +3236,9 @@ li{
     }
     #javascript2{
         font-size: 55px;
+    }
+    #return-angels{
+        font-size: 50px;
     }
     #python2{
         font-size: 55px;
@@ -3283,6 +3421,10 @@ li{
         height: 60rem;
         width: 110rem;
     }
+    .Angels {
+        height: 60rem;
+        width: 110rem;
+    }
     .conteudo{
         margin-top: 80px;
         height: 53rem;
@@ -3361,6 +3503,35 @@ li{
         width: 260px;
         font-size: 20px;
     }
+
+    #react2{
+        margin-left: 1px;
+    }
+
+    #sass3{
+        margin-left: 60px
+    }
+
+    #nextjs3{
+        margin-top: 20px;
+        height: 25px;
+        width: 100px;
+        margin-left: 135px;
+    }
+
+    #prisma2{
+        margin-top: 10px;
+        height: 50px;
+        width: 60px;
+    }
+
+    #diretorio2{
+        margin-top: 630px;
+        margin-left: 20px;
+        height: 100px;
+        width: 300px;
+        font-size: 20px;
+    }
     #download{
         margin-top: 700px;
         margin-left: 380px;
@@ -3396,6 +3567,12 @@ li{
     #whatifinfos{
         margin-top: 300px;
         margin-left: 20px;
+    }
+
+    #tecnonew{
+        margin-left: 20px;
+        font-size: 30px;
+        margin-top: 250px;
     }
 
     #csharp2{
@@ -3504,6 +3681,10 @@ li{
     margin-left: 30px;
     overflow-x: scroll;
 }
+
+#return_angels{
+    font-size: 50px;
+}
 .projeto1{
     height: 35rem;
     width: 24rem;
@@ -3536,8 +3717,14 @@ li{
 }
 #erion{
     height: 200px;
-    width: 330px;
-    margin-left: 840px;
+    width: 360px;
+    margin-left: 832px;
+}
+
+#angels{
+    height: 200px;
+    width: 360px;
+    margin-left: 1232px;
 }
 #whatif2{
     
@@ -3558,8 +3745,13 @@ li{
 }
 .projeto3{
     height: 35rem;
-    width: 23rem;
+    width: 24rem;
     margin-left: 820px;
+}
+.projeto4{
+    height: 35rem;
+    width: 24rem;
+    margin-left: 1220px;
 }
 #python{
     
@@ -3739,6 +3931,9 @@ li{
     width: 1100px;
 }
 
+.Angels{
+    width: 1100px;
+}
 .WhatIf{
     width: 1100px;
 }
@@ -3783,4 +3978,27 @@ li{
     
 }
 
+#tecnonew{
+    margin-left: 0px;
+}
+
+#react2{
+    margin-left: 2px
+}
+
+#sass3{
+    margin-left: 40px
+}
+
+#nextjs3{
+    margin-left: 90px;
+}
+
+#angels-subtexto{
+    margin-left: 0px;
+}
+
+#diretorio2{
+    margin-left: 100px;
+}
 }
