@@ -20,7 +20,7 @@
 
 body {
     position: fixed;
-    background:url(../imgs/AM/lightam.png);
+    background:url(../imgs/PM/bgpm.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -304,7 +304,7 @@ transition: transform 0.2s linear;
 #background_rhyan{
     position: fixed;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 25px;
     height: 550px;
     width: 310px;
     background-color: transparent;
@@ -324,7 +324,7 @@ transition: transform 0.2s linear;
 #text_logo{
     position: fixed;
     height: 546px;
-    left: 8px;
+    left: 25px;
     top: 20px;
     z-index: 1;
 }
@@ -372,6 +372,7 @@ transition: transform 0.2s linear;
     display: none;
     border-radius: 20px;
     height: 50px;
+    margin-left: -12px;
     opacity: calc(70%);
 }
 
@@ -398,8 +399,8 @@ transition: transform 0.2s linear;
 #projeto {
     position: absolute;
     height: 240px;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 11px;
+    margin-top: 13px;
     border-radius: 20px;
 }
 
@@ -608,6 +609,11 @@ li{
 
 #return:hover{
     color: rgba(3, 255, 159, 0.932);
+}
+
+.direction{
+    position: absolute;
+    margin-left: 120px;
 }
 
 .infos-prototipo{
@@ -836,6 +842,7 @@ li{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow-x: scroll;
 }
 
 .projeto1{
@@ -875,6 +882,20 @@ li{
     transition: ease-in-out 0.5s;
 }
 
+.projeto4{
+    position: absolute;
+    display: flex;
+    background-color: #121212;
+    height: 550px;
+    width: 400px;
+    margin-left: 1260px;
+    margin-top: 20px;
+    opacity: calc(20%);
+    border-radius: 20px;
+    transition: ease-in-out 0.5s;
+    color: white;
+}
+
 .projeto1:hover{
     opacity: calc(70%);
     transition: ease-in-out 0.5s;
@@ -886,6 +907,11 @@ li{
 }
 
 .projeto3:hover{
+    opacity: calc(70%);
+    transition: ease-in-out 0.5s;
+}
+
+.projeto4:hover{
     opacity: calc(70%);
     transition: ease-in-out 0.5s;
 }
@@ -908,6 +934,17 @@ li{
     margin-left: 440px;
     margin-top: 35px;
     border-radius: 20px;
+}
+
+#angels{
+    opacity: 1;
+    position: absolute;
+    height: 210px;
+    width: 370px;
+    margin-left: 1275px;
+    margin-top: 35px;
+    border-radius: 20px;
+    z-index: 1;
 }
 
 #erion{
@@ -950,6 +987,32 @@ li{
 #python{
     position: absolute;
     margin-top: 300px;
+}
+
+#sass2{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 80px;
+}
+
+#react3{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 40px;
+}
+
+#nextjs2{
+    margin-top: 310px;
+    height: 12px;
+    width: 50px;
+    margin-left: 126px;
+}
+
+#prisma{
+    margin-top: 301px;
+    height: 32px;
+    width: 40px;
+    margin-left: 1px;
 }
 
 #html{
@@ -1050,6 +1113,25 @@ li{
     background-color: rgba(3, 255, 159, 0.932);
     color: white;
 }
+
+#transferangels{
+    display: block;
+    position: fixed;
+    height: 30px;
+    width: 200px;
+    font: bold 15px arial, sans-serif;
+    margin-left: 105px;
+    margin-top: 480px;
+    border-radius: 20px;
+    opacity: calc(100%);
+    z-index: 1;
+    border: none;
+}
+
+#transfererangels:hover{
+    background-color: rgba(3, 255, 159, 0.932);
+    color: white;
+}
 /* FIM DA PARTE DE PROJETOS E INICIO DA PARTE SOBRE MIM */
 
 #sobremim{
@@ -1068,17 +1150,16 @@ li{
     display: flex;
     flex-direction: column;
     position: absolute;
-    background-color: #121212;
+    background-color: rgba(18, 18, 18, 0.2);
     height: 36rem;
     width: 20rem;
     margin-top: 5px;
     margin-left: 20px;
     border-radius: 20px;
-    opacity: calc(20%);
     transition: ease-in-out 0.5s;
 }
 .dados:hover{
-    opacity: calc(70%);
+    background-color: rgba(18, 18, 18, 1);
     transition: ease-in-out 0.5s
 }
 .logo-perfil{
@@ -1087,6 +1168,7 @@ li{
     height: 200px;
     width: 200px;
     border-radius: 100%;
+    z-index: 1;
 }
 
 .tecnologias{
@@ -1104,25 +1186,44 @@ li{
     background-color: transparent;
 }
 #html2{
-    font-size: 35px;
+    font-size: 30px;
     margin-left: 40px;
 }
 #css2{
-    font-size: 35px;
-    margin-left: 40px;
+    font-size: 30px;
+    margin-left: 20px;
 }
 #javascript2{
-    font-size: 35px;
-    margin-left: 40px;
+    font-size: 30px;
+    margin-left: 20px;
 }
 #python2{
-    font-size: 35px;
-    margin-left: 40px;
+    font-size: 30px;
+    margin-left: 20px;
 }
 #react{
-    font-size: 35px;
-    margin-left: 40px;
+    font-size: 30px;
+    margin-left: 10px;
 }
+
+#nextjs{
+    margin-top: 68px;
+    height: 14px;
+    width: 60px;
+    margin-left: 15px;
+}
+
+#git{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+#sass{
+    font-size: 30px;
+    margin-left: -170px;
+    margin-top: 60px;
+}
+
 #edit2{
     font-size: 35px;
     margin-left: 40px;
@@ -1132,13 +1233,13 @@ li{
 #edit3{
     margin-top: 12px;
     font-size: 40px;
-    margin-left: 30px;
+    margin-left: 80px;
 }
 .bgdados{
     margin-top: 15px;
     height: 40px;
     width: 35px;
-    margin-left: 35px;
+    margin-left: 30px;
 }
 
 .cmais{
@@ -2113,6 +2214,7 @@ li{
         flex-direction: column;
         background: transparent;
         background-color: transparent;
+        overflow-x: scroll;
     }
     .projeto1{
         height: 150px;
@@ -2488,6 +2590,7 @@ li{
         flex-direction: column;
         background: transparent;
         background-color: transparent;
+        overflow-x: scroll;
     }
     .projeto1{
         height: 150px;
@@ -3396,8 +3499,11 @@ li{
     }
     #projetos{
     background: transparent;
+    height: 700px;
     margin-left: 30px;
-}
+    overflow: scroll;
+    overflow-wrap: normal;
+    }
 .projeto1{
     height: 35rem;
     width: 24rem;

@@ -565,7 +565,7 @@ chk.addEventListener("change", function Sobre() {
   let subtituloformulario = document.querySelector('#subtituloformulario');
 
   if(chk.checked == true){
-    base.style.background = "#FFFF";
+    base.style.background = "rgba(255, 255, 255, 0.2)";
     texto3.style.color = '#121212';
     texto4.style.color = '#121212';
     html2.style.color = '#121212';
@@ -616,6 +616,12 @@ chk.addEventListener("change", function Sobre() {
     botaoformulario.addEventListener('mouseleave', function (){
       botaoformulario.style.background = '#121212';
     })
+    base.addEventListener('mouseenter', function (){
+      base.style.background = 'rgba(255, 255, 255, 0.7)';
+    })
+    base.addEventListener('mouseleave', function (){
+      base.style.background = 'rgba(255, 255, 255, 0.2)';
+    })
     etec.src = '/imgs/etecdark.png';
     senai.src = '/imgs/senaidark.png';
     unip.src = '/imgs/unipdark.png';
@@ -623,7 +629,7 @@ chk.addEventListener("change", function Sobre() {
   }
   else{
     let btn = window.document.querySelector('.btn');
-    base.style.background = "#121212";
+    base.style.background = "rgba(18, 18, 18, 0.2)";
     texto3.style.color = '#FFFF';
     texto4.style.color = '#FFFF';
     html2.style.color = '#FFFF';
@@ -671,6 +677,12 @@ chk.addEventListener("change", function Sobre() {
     botaoformulario.addEventListener('mouseleave', function (){
       botaoformulario.style.background = '#FFFF';
     });
+    base.addEventListener('mouseenter', function (){
+      base.style.background = 'rgba(18, 18, 18, 0.7)';
+    })
+    base.addEventListener('mouseleave', function (){
+      base.style.background = 'rgba(18, 18, 18, 0.2)';
+    })
     etec.src = '/imgs/etec.png';
     senai.src = '/imgs/SENAI_branca.png';
     unip.src = '/imgs/unip.png';
@@ -693,3 +705,46 @@ $('.slider-nav').slick({
   centerMode: true,
   focusOnSelect: true
 });
+
+
+chk.addEventListener("change", function IConesCores() {
+  let sass = window.document.querySelector('#sass');
+  let git = window.document.querySelector('#git');
+  let next = window.document.querySelector('#nextjs');
+  let projeto4 = window.document.querySelector('.projeto4');
+  let text4 = window.document.querySelector('#prj4');
+  let rect2 = window.document.querySelector('#react3');
+  let sass2 = window.document.querySelector('#sass2');
+  let nextjs = window.document.querySelector('#nextjs2');
+  let prisma = window.document.querySelector('#prisma');
+  let info4 = window.document.querySelector('#info4');
+  let button4 = window.document.querySelector('#transferangels');
+  if (chk.checked === true){
+    projeto4.style.background = '#FFFF'; 
+    sass.style.color = '#121212';
+    git.style.color = '#121212';
+    next.src = '/imgs/nextjs-icon.png';
+    text4.style.color = '#121212';
+    rect2.style.color = '#121212';
+    sass2.style.color = '#121212';
+    nextjs.src = '/imgs/nextjs-icon.png';
+    prisma.src = '/imgs/prisma-black.png';
+    info4.style.color = '#121212';
+    button4.style.color = '#FFFF';
+    button4.style.background = '#121212';
+  }
+  else {
+    sass.style.color = '#FFFF';
+    git.style.color = '#FFFF';
+    next.src = '/imgs/AM/nextjs-icon-white.png';
+    projeto4.style.background = '#121212';
+    text4.style.color = '#FFFF';
+    rect2.style.color = '#FFFF';
+    sass2.style.color = '#FFFF';
+    nextjs.src = '/imgs/AM//nextjs-icon-white.png';
+    prisma.src = '/imgs/prisma-white.png';
+    info4.style.color = '#FFFF';
+    button4.style.color = '#121212';
+    button4.style.background = '#FFFF';
+  }
+})
