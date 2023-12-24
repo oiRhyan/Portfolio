@@ -337,6 +337,10 @@ transition: transform 0.2s linear;
     border-radius: 20px;
     display: none;
 }
+#angels2{
+    border-radius: 20px;
+    display: none;
+}
 
 .contatos{
     position: fixed;
@@ -520,6 +524,10 @@ transition: transform 0.2s linear;
 }
 
 .erionlastimage{
+    display: none;
+}
+
+.angelslastimage{
     display: none;
 }
 
@@ -1702,6 +1710,22 @@ li{
 
 
 @media screen and (max-width: 1000px){
+    .projeto1{
+        display: flex;
+        background: transparent;
+    }
+    .projeto2{
+        display: flex;
+        background: transparent;
+    }
+    .projeto3{
+        display: flex;
+        background: transparent;
+    }
+    .projeto4{
+        display: flex;
+        background: transparent;
+    }
         #main{
             width: 100%;
             height: 530px;
@@ -1736,7 +1760,7 @@ li{
             margin-top: 10px;
         }
         #projetotexto{
-            margin-top: 210px;
+            margin-top: 220px;
             font-size: 22px;
         }
         #projeto-texto-sub{
@@ -1829,10 +1853,17 @@ li{
         height: 150px;
         border-radius: 20px;
     }
-    #erion2{
+    #angels2{
         display: flex;
         height: 150px;
         border-radius: 20px;
+    }
+    #erion2{
+        display: flex;
+        height: 100px;
+        border-radius: 20px;
+        margin-left: 32px;
+        margin-top: -70px;
     }
     .projeto2{
         height: 150px;
@@ -2079,6 +2110,16 @@ li{
     border-radius: 20px;
 }
 
+.angelslastimage{
+    position: relative;
+    display: flex;
+    height: 170px;
+    width: 300px;
+    top: -320px;
+    margin-left: 25px;
+    border-radius: 20px;
+}
+
 .selecao2{
     display: none;
 }
@@ -2147,6 +2188,13 @@ li{
     margin-left: 30px;
 }
 
+#diretorio2{
+    margin-top: 150px;
+    height: 50px;
+    width: 125px;
+    margin-left: 112px;
+}
+
 #download{
     margin-top: 160px;
     height: 50px;
@@ -2186,6 +2234,17 @@ li{
     margin-top: -5px;
     flex-direction: column;
 }
+#return-angels{
+    display: none;
+}
+
+.Angels{
+    width: 350px;
+    height: 510px;
+    margin-left: 1px;
+    margin-top: -5px;
+    flex-direction: column;
+}
 #return_bicik{
     display: none;
 }
@@ -2213,7 +2272,11 @@ li{
 }
 
 #bicik2{
-    display: flex;
+        display: flex;
+        height: 100px;
+        border-radius: 20px;
+        margin-left: 40px;
+        margin-top: -10px;
 }
 }
 
@@ -2251,11 +2314,11 @@ li{
         margin-top: 10px;
     }
     #projetotexto{
-        margin-top: 210px;
+        margin-top: 200px;
         font-size: 22px;
     }
     #projeto-texto-sub{
-        margin-top: 270px;
+        margin-top: 260px;
         font-size: 10px;
     }
     .botao{
@@ -2340,8 +2403,17 @@ li{
     }
     #whatif2{
         display: flex;
-        height: 150px;
+        height: 100px;
         border-radius: 20px;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    #angels2{
+        display: flex;
+        height: 100px;
+        border-radius: 20px;
+        margin-left: 95px;
+        margin-top: 410px;
     }
     .projeto2{
         height: 150px;
@@ -2603,6 +2675,22 @@ li{
         flex-direction: column;
         background: transparent;
     }
+    .projeto1{
+        display: flex;
+        background: transparent;
+    }
+    .projeto2{
+        display: flex;
+        background: transparent;
+    }
+    .projeto3{
+        display: flex;
+        background: transparent;
+    }
+    .projeto4{
+        display: flex;
+        background: transparent;
+    }
     .welcome{
         display: none;
     }
@@ -2623,16 +2711,16 @@ li{
         width: 345px;
     }
     #projeto{
-        height: 190px;
-        margin-left: 11px;
+        height: 180px;
+        margin-left: 12px;
         margin-top: 10px;
     }
     #projetotexto{
-        margin-top: 210px;
+        margin-top: 200px;
         font-size: 22px;
     }
     #projeto-texto-sub{
-        margin-top: 270px;
+        margin-top: 260px;
         font-size: 10px;
     }
     .botao{
@@ -2691,11 +2779,21 @@ li{
         overflow: hidden;
     }
     .projeto1{
-        height: 150px;
-        width: 250px;
-        margin-left: 50px;
+        position: relative;
+        height: 0px;
+        left: 2px;
+        width: 0px;
+        margin-left: 40px;
         opacity: calc(100%);
         background-color: transparent;
+    }
+    #bicik2{
+        position: relative;
+        margin-top: 2px;
+        display: flex;
+        height: 110px;
+        width: 200px;
+        border-radius: 20px;
     }
     .texto{
         display: none;
@@ -2716,15 +2814,33 @@ li{
         display: none;
     }
     #whatif2{
+        position: relative;
+        margin-top: 2px;
         display: flex;
-        height: 150px;
+        height: 110px;
+        width: 200px;
+        border-radius: 20px;
+    }
+    #erion2{
+        position: relative;
+        margin-top: 2px;
+        display: flex;
+        height: 110px;
+        width: 200px;
+        border-radius: 20px;
+    }
+    #angels2{
+        display: flex;
+        height: 110px;
+        margin-top: 375px;
+        margin-left: 85px;
         border-radius: 20px;
     }
     .projeto2{
-        height: 150px;
-        width: 250px;
-        margin-left: 55px;
-        margin-top: 190px;
+        height: 0px;
+        width: 0px;
+        margin-left: 45px;
+        margin-top: 120px;
         opacity: calc(100%);
         background-color: transparent;
     }
@@ -2738,10 +2854,10 @@ li{
         display: none;
     }
     .projeto3{
-        height: 150px;
-        width: 255px;
-        margin-left: 65px;
-        margin-top: 360px;
+        height: 0px;
+        width: 0px;
+        margin-left: 60px;
+        margin-top: 245px;
         opacity: calc(100%);
         background-color: transparent;
     }
@@ -3066,6 +3182,19 @@ li{
         margin-top: 520px;
         font-size: 20px;
     }
+    #sass{
+        font-size: 50px;
+        margin-left: -280px;
+        margin-top: 80px;
+    }
+    #nextjs{
+        margin-top: 100px;
+        height: 20px;
+        width: 100px;
+    }
+    #git{
+        font-size: 55px;
+    }
     #projetotexto{
         margin-top: 400px;
         font-size: 44px;
@@ -3102,6 +3231,7 @@ li{
     .projeto1{
         height: 50rem;
         width: 35rem;
+        background-color: transparent;
     }
     .projeto2{
         margin-left: 580px;
@@ -3198,6 +3328,7 @@ li{
         margin-top: 420px;
         margin-left: 2px;
     }
+    
     #react3{
         margin-top: 420px;
         margin-left: 50px;
@@ -3269,7 +3400,7 @@ li{
         width: 340px;
         margin-left: 70px;
         font-size: 20px;
-        margin-top: 2px;
+        margin-top: -22px;
     }
     .base{
         position: absolute;
@@ -3503,6 +3634,14 @@ li{
         width: 260px;
         font-size: 20px;
     }
+    
+    #diretorio2{
+        margin-top: 700px;
+        margin-left: 50px;
+        height: 100px;
+        width: 260px;
+        font-size: 20px;
+    }
 
     #react2{
         margin-left: 1px;
@@ -3580,6 +3719,15 @@ li{
     }
 
     .Bicik{
+        height: 60rem;
+        width: 110rem;
+    }
+
+    #return-angels{
+        display: none;
+    }
+
+    .Angels{
         height: 60rem;
         width: 110rem;
     }
@@ -3961,6 +4109,10 @@ li{
 .Bicik{
     width: 1100px;
 }
+
+.Angels{
+    width: 1100px;
+}
 #return_bicik{
     
 }
@@ -3989,6 +4141,7 @@ li{
 #sass3{
     margin-left: 40px
 }
+
 
 #nextjs3{
     margin-left: 90px;

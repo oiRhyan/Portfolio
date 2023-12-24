@@ -759,6 +759,7 @@ chk.addEventListener("change", function IConesCores() {
   let prisma = window.document.querySelector('#prisma');
   let info4 = window.document.querySelector('#info4');
   let button4 = window.document.querySelector('#transferangels');
+  let AngelsBanner = window.document.querySelector('.Angels');
   if (chk.checked === true){
     projeto4.style.background = '#FFFF'; 
     sass.style.color = '#121212';
@@ -778,6 +779,7 @@ chk.addEventListener("change", function IConesCores() {
     button4.addEventListener('mouseleave', function(){
       button4.style.background = '#121212';
     })
+    AngelsBanner.style.background = 'rgba(255, 255, 255, 0.2)';
   }
   else {
     sass.style.color = '#FFFF';
@@ -798,5 +800,6 @@ chk.addEventListener("change", function IConesCores() {
     button4.addEventListener('mouseleave', function(){
       button4.style.background = '#FFFF';
     })
+    AngelsBanner.style.background = 'rgba(18, 18, 18, 0.2)';
   }
 })
