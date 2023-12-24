@@ -2214,7 +2214,6 @@ li{
         flex-direction: column;
         background: transparent;
         background-color: transparent;
-        overflow-x: scroll;
     }
     .projeto1{
         height: 150px;
@@ -2590,7 +2589,6 @@ li{
         flex-direction: column;
         background: transparent;
         background-color: transparent;
-        overflow-x: scroll;
     }
     .projeto1{
         height: 150px;
@@ -3499,11 +3497,9 @@ li{
     }
     #projetos{
     background: transparent;
-    height: 700px;
     margin-left: 30px;
-    overflow: scroll;
-    overflow-wrap: normal;
-    }
+    overflow-x: scroll;
+}
 .projeto1{
     height: 35rem;
     width: 24rem;
