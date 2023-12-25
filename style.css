@@ -1716,7 +1716,6 @@ li{
     }
     .projeto2{
         display: flex;
-        background: transparent;
     }
     .projeto3{
         display: flex;
@@ -2377,8 +2376,9 @@ li{
         overflow: hidden;
     }
     .projeto1{
-        height: 150px;
-        width: 250px;
+        display: flex;
+        height: 0px;
+        width: 0px;
         margin-left: 50px;
         opacity: calc(100%);
         background-color: transparent;
@@ -2416,8 +2416,9 @@ li{
         margin-top: 410px;
     }
     .projeto2{
-        height: 150px;
-        width: 250px;
+        display: flex;
+        height: 0px;
+        width: 0px;
         margin-left: 55px;
         margin-top: 190px;
         opacity: calc(100%);
@@ -2433,8 +2434,9 @@ li{
         display: none;
     }
     .projeto3{
-        height: 150px;
-        width: 255px;
+        display: flex;
+        height: 0px;
+        width: 0px;
         margin-left: 65px;
         margin-top: 360px;
         opacity: calc(100%);
@@ -2677,7 +2679,8 @@ li{
     }
     .projeto1{
         display: flex;
-        background: transparent;
+        height: 0px;
+        width: 0px;
     }
     .projeto2{
         display: flex;

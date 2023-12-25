@@ -173,6 +173,7 @@ var bicik2 = document.querySelector('#bicik2');
 let angelsTransfer = window.document.querySelector('#return-angels');
 let Angels = window.document.querySelector('.Angels');
 let transferAngels = window.document.querySelector('#transferangels');
+let AngelsMobile = window.document.querySelector('#angels2')
 
 label2.addEventListener("click", function () {
   home.style.display = "none";
@@ -353,6 +354,16 @@ transferAngels.addEventListener("click", function(){
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
   Angels.style.display = "flex"
+})
+AngelsMobile.addEventListener("click", function(){
+  home.style.display = "none";
+  ERion.style.display = "none";
+  Projetos.style.display = "none";
+  SobreMim.style.display = "none";
+  contato.style.display  = "none";
+  WhatIf.style.display = "none";
+  Bicik.style.display = "none";
+  Angels.style.display = "flex";
 })
 
 /*Função separada para cores dos icones */
