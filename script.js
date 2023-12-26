@@ -586,12 +586,7 @@ chk.addEventListener("change", function Sobre() {
   let cmais = window.document.querySelector('.cmais');
   let btn = window.document.querySelector('.btn');
   let logo = window.document.querySelector('.logos');
-  let academicotexto = window.document.querySelector('.academicotexto');
   let sobremimnovo = window.document.querySelector('.base');
-  let t1 = window.document.querySelector('#t1');
-  let t2 = window.document.querySelector('#t2');
-  let t3 = window.document.querySelector('#t3');
-  let t4 = window.document.querySelector('#t4');
   let textofinal = window.document.querySelector('.finaltexto');
   let titulo = window.document.querySelector('.titulo');
   let texto6 = window.document.querySelector('.texto6');
@@ -630,12 +625,7 @@ chk.addEventListener("change", function Sobre() {
     btn.style.background = '#121212';
     btn.style.color = '#FFFF';
     logo.style.background = '#FFFF';
-    academicotexto.style.color = '#121212';
     sobremimnovo.style.background = '#FFFF';
-    t1.style.color = '#121212';
-    t2.style.color = '#121212';
-    t3.style.color = '#121212';
-    t4.style.color = '#121212';
     textofinal.style.background = '#FFFF';
     texto6.style.color = '#121212';
     titulo.style.color = '#121212';
@@ -694,12 +684,7 @@ chk.addEventListener("change", function Sobre() {
     btn.style.background = '#FFFF';
     logo.style.background = '#121212';
     btn.style.color = '#121212';
-    academicotexto.style.color = '#FFFF';
     sobremimnovo.style.background = '#121212';
-    t1.style.color = '#FFFF';
-    t2.style.color = '#FFFF';
-    t3.style.color = '#FFFF';
-    t4.style.color = '#FFFF';
     textofinal.style.background = '#121212';
     titulo.style.color = '#FFFF';
     texto6.style.color = '#FFFF';
@@ -771,6 +756,23 @@ chk.addEventListener("change", function IConesCores() {
   let info4 = window.document.querySelector('#info4');
   let button4 = window.document.querySelector('#transferangels');
   let AngelsBanner = window.document.querySelector('.Angels');
+  let conquista = window.document.querySelector('.conquistas');
+  let trofeu = window.document.querySelector('#trofeu');
+  let conquistatext = window.document.querySelector('#trofeutexto');
+  let certificado1 = window.document.querySelector('#certificado1');
+  let certificado2 = window.document.querySelector('#certificado2');
+  let certificado3 = window.document.querySelector('#certificado3');
+  let certificado4 = window.document.querySelector('#certificado4');
+  let certificado5 = window.document.querySelector('#certificado5');
+  let certificadotexto1 = window.document.querySelector('#certificado1texto');
+  let certificadotexto2 = window.document.querySelector('#certificado2texto');
+  let certificadotexto3 = window.document.querySelector('#certificado3texto');
+  let certificadotexto4 = window.document.querySelector('#certificado4texto');
+  let certificadotexto5 = window.document.querySelector('#certificado5texto');
+  let diferencial = window.document.querySelector('.diferenciais');
+  let tags = window.document.querySelector('#tags');
+  let adicional = window.document.querySelector('#adicionais');
+
   if (chk.checked === true){
     projeto4.style.background = '#FFFF'; 
     sass.style.color = '#121212';
@@ -791,6 +793,22 @@ chk.addEventListener("change", function IConesCores() {
       button4.style.background = '#121212';
     })
     AngelsBanner.style.background = 'rgba(255, 255, 255, 0.2)';
+    conquista.style.background = 'rgba(240, 240, 240, 0.9)';
+    trofeu.style.color = '#121212';
+    conquistatext.style.color = '#121212';
+    certificado1.style.color = '#121212';
+    certificado2.style.color = '#121212';
+    certificado3.style.color = '#121212';
+    certificado4.style.color = '#121212';
+    certificado5.style.color = '#121212';
+    certificadotexto1.style.color = '#121212';
+    certificadotexto2.style.color = '#121212';
+    certificadotexto3.style.color = '#121212';
+    certificadotexto4.style.color = '#121212';
+    certificadotexto5.style.color = '#121212';
+    diferencial.style.background = 'rgba(220, 220, 220, 0.9)';
+    tags.style.color = '#121212';
+    adicional.style.color = '#121212';
   }
   else {
     sass.style.color = '#FFFF';
@@ -812,5 +830,35 @@ chk.addEventListener("change", function IConesCores() {
       button4.style.background = '#FFFF';
     })
     AngelsBanner.style.background = 'rgba(18, 18, 18, 0.2)';
+    conquista.style.background = 'rgba(25, 25, 25,  0.9)';
+    trofeu.style.color = '#FFFF';
+    conquistatext.style.color = '#FFFF';
+    conquistatext.style.color = '#FFFF';
+    certificado1.style.color = '#FFFF';
+    certificado2.style.color = '#FFFF';
+    certificado3.style.color = '#FFFF';
+    certificado4.style.color = '#FFFF';
+    certificado5.style.color = '#FFFF';
+    certificadotexto1.style.color = '#FFFF';
+    certificadotexto2.style.color = '#FFFF';
+    certificadotexto3.style.color = '#FFFF';
+    certificadotexto4.style.color = '#FFFF';
+    certificadotexto5.style.color = '#FFFF';
+    diferencial.style.background = 'rgba(53, 53, 53, 0.568)';
+    tags.style.color = '#FFFF';
+    adicional.style.color = '#FFFF';
   }
 })
+
+
+const whatifurl = 'https://gamejolt.com/games/whatifworld/667617';
+const whatifbutton = window.document.getElementsByName('whatif-apk')[0];
+
+function openApk(whatifurl) {
+  const open = window.open(whatifurl, '_blank');
+  open.focus();
+}
+
+whatifbutton.addEventListener('click', () => {
+  openApk(whatifurl);
+});

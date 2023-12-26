@@ -35,6 +35,12 @@ body {
     transition: ease-in-out 2s;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
 .notification {
     opacity: calc(70%);
 	position: absolute;
@@ -60,7 +66,7 @@ body {
 	height: 3px;
 	transform: scaleX(0);
 	transform-origin: left;
-	background-image: linear-gradient(to right, rgba(3, 255, 159, 0.932), rgba(3, 255, 159, 0.932));
+	background-image: linear-gradient(90deg, rgba(167,11,150,1) 0%, rgba(101,9,121,1) 39%, rgba(0,212,255,1) 100%);
 	border-radius: inherit;
 	animation: load 5s 0.10s linear forwards;
     opacity: calc(70%);
@@ -945,7 +951,7 @@ li{
 #projetos::-webkit-scrollbar-thumb{
         width: 5px;
         height: 5px;
-        background-color: aqua;
+        background: linear-gradient(90deg, rgba(167,11,150,1) 0%, rgba(101,9,121,1) 39%, rgba(0,212,255,1) 100%);
         border-radius: 10px;
 }
 
@@ -1708,6 +1714,133 @@ li{
     margin-top: -30px;
 }
 
+.conquistas{
+    display: flex;
+    flex-direction: column;
+    width: 412px;
+    height: 420px;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background: rgba(25, 25, 25, 0.9);
+    word-wrap: break-word;
+}
+
+#trofeu{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 32px;
+}
+
+#trofeutexto{
+    color: white;
+    font-family: 'Montserrat';
+    width: 700px;
+    margin-left: 70px;
+    margin-top: -30px;
+    font-size: 25px;
+}
+
+#certificado1{
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#certificado1texto{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: 'Montserrat';
+}
+
+#certificado2{
+    color: white;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#certificado2texto{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: 'Montserrat';
+}
+.base2{
+    display: flex;
+}
+
+.diferenciais{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 200px;
+    width: 371px;
+    border-radius: 20px;
+    background: rgba(53, 53, 53, 0.568);
+}
+
+#tags{
+    color:white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#adicionais{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: -23px;
+}
+
+#certificado3{
+    color: white;
+    font-size: 22px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+#certificado3texto{
+    color: white;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: -19px;
+    font-family: 'Montserrat';
+}
+
+#certificado4{
+    color: white;
+    font-size: 22px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+#certificado4texto{
+    color: white;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: -19px;
+    font-family: 'Montserrat';
+}
+
+#certificado5{
+    color: white;
+    font-size: 22px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+#certificado5texto{
+    color: white;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: -19px;
+    font-family: 'Montserrat';
+}
 
 @media screen and (max-width: 1000px){
     .projeto1{
@@ -2381,7 +2514,7 @@ li{
         width: 0px;
         margin-left: 50px;
         opacity: calc(100%);
-        background-color: transparent;
+
     }
     .texto{
         display: none;
@@ -2788,7 +2921,6 @@ li{
         width: 0px;
         margin-left: 40px;
         opacity: calc(100%);
-        background-color: transparent;
     }
     #bicik2{
         position: relative;
@@ -3234,7 +3366,6 @@ li{
     .projeto1{
         height: 50rem;
         width: 35rem;
-        background-color: transparent;
     }
     .projeto2{
         margin-left: 580px;
@@ -3381,18 +3512,19 @@ li{
         font-size: 55px;
     }
     #edit2{
-        font-size: 55px;
+        font-size: 50px;
     }
     #edit3{
-        font-size: 55px;
+        margin-left: 120px;
+        font-size: 50px;
     }
     .bgdados{
-        height: 60px;
-        width: 50px;
+        height: 50px;
+        width: 40px;
     }
     
     .cmais{
-        font-size: 55px;
+        font-size: 45px;
     }
     .icons1{
         margin-left: 25px;
@@ -3403,7 +3535,7 @@ li{
         width: 340px;
         margin-left: 70px;
         font-size: 20px;
-        margin-top: -22px;
+        margin-top: -10px;
     }
     .base{
         position: absolute;
@@ -3749,6 +3881,133 @@ li{
     }
     #javascript3{
         
+    }
+    .conquistas{
+        display: flex;
+        flex-direction: column;
+        width: 562px;
+        height: 600px;
+        margin-left: 30px;
+        border-radius: 20px;
+        margin-top: 20px;
+        background: rgba(25, 25, 25, 0.9);
+        word-wrap: break-word;
+    }
+    
+    #trofeu{
+        color: white;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 40px;
+    }
+    
+    #trofeutexto{
+        color: white;
+        font-family: 'Montserrat';
+        width: 700px;
+        margin-left: 80px;
+        margin-top: -38px;
+        font-size: 32px;
+    }
+    
+    #certificado1{
+        color: white;
+        font-size: 35px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    #certificado1texto{
+        color: white;
+        font-size: 20px;
+        margin-left: 10px;
+        font-family: 'Montserrat';
+    }
+    
+    #certificado2{
+        color: white;
+        font-size: 35px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    #certificado2texto{
+        color: white;
+        font-size: 20px;
+        margin-left: 10px;
+        font-family: 'Montserrat';
+    }
+    .base2{
+        display: flex;
+    }
+    
+    .diferenciais{
+        margin-top: 20px;
+        margin-left: 20px;
+        height: 330px;
+        width: 520px;
+        border-radius: 20px;
+        background: rgba(53, 53, 53, 0.568);
+    }
+    
+    #tags{
+        color:white;
+        font-size: 35px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    #adicionais{
+        color: white;
+        font-family: 'Montserrat';
+        font-size: 27px;
+        margin-left: 70px;
+        margin-top: -35px;
+    }
+    
+    #certificado3{
+        color: white;
+        font-size: 32px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    
+    #certificado3texto{
+        color: white;
+        font-size: 20px;
+        margin-left: 40px;
+        margin-top: -26px;
+        font-family: 'Montserrat';
+    }
+    
+    #certificado4{
+        color: white;
+        font-size:32px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    
+    #certificado4texto{
+        color: white;
+        font-size: 20px;
+        margin-left: 40px;
+        margin-top: -22px;
+        font-family: 'Montserrat';
+    }
+    
+    #certificado5{
+        color: white;
+        font-size: 32px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    
+    #certificado5texto{
+        color: white;
+        font-size: 20px;
+        margin-left: 40px;
+        margin-top: -21px;
+        font-family: 'Montserrat';
     }
 }
 
@@ -4156,5 +4415,9 @@ li{
 
 #diretorio2{
     margin-left: 100px;
+}
+
+.conquistas{
+    margin-left: 10px;
 }
 }
