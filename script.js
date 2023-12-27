@@ -180,7 +180,7 @@ label2.addEventListener("click", function () {
   ERion.style.display = "none";
   Projetos.style.display = "block";
   SobreMim.style.display = "none";
-  contato.style.display  = "none";
+  contato.style.display = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
   Angels.style.display = "none";
@@ -190,7 +190,7 @@ label1.addEventListener("click", function Home() {
   ERion.style.display = "none";
   Projetos.style.display = "none";
   SobreMim.style.display = "none";
-  contato.style.display  = "none";
+  contato.style.display = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
   Angels.style.display = "none";
@@ -200,7 +200,7 @@ label3.addEventListener("click", function () {
   ERion.style.display = "none";
   Projetos.style.display = "none";
   SobreMim.style.display = "flex";
-  contato.style.display  = "none";
+  contato.style.display = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
   Angels.style.display = "none";
@@ -210,7 +210,7 @@ retorno.addEventListener("click", function () {
   ERion.style.display = "none";
   Projetos.style.display = "none";
   SobreMim.style.display = "none";
-  contato.style.display  = "none";
+  contato.style.display = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
   Angels.style.display = "none";
@@ -220,7 +220,7 @@ ActivateErion.addEventListener("click", function () {
   ERion.style.display = "none";
   Projetos.style.display = "none";
   SobreMim.style.display = "none";
-  contato.style.display  = "none";
+  contato.style.display = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
   Angels.style.display = "flex";
@@ -230,7 +230,7 @@ perfil.addEventListener("click", function () {
   ERion.style.display = "none";
   Projetos.style.display = "none";
   SobreMim.style.display = "flex";
-  contato.style.display  = "none";
+  contato.style.display = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
   Angels.style.display = "none";
@@ -240,7 +240,7 @@ botao2.addEventListener("click", function () {
   ERion.style.display = "none";
   Projetos.style.display = "none";
   SobreMim.style.display = "flex";
-  contato.style.display  = "none";
+  contato.style.display = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
   Angels.style.display = "none";
@@ -250,7 +250,7 @@ label4.addEventListener("click", function () {
   ERion.style.display = "none";
   Projetos.style.display = "none";
   SobreMim.style.display = "none";
-  contato.style.display  = "flex";
+  contato.style.display = "flex";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
   Angels.style.display = "none";
@@ -260,7 +260,7 @@ botaoerion.addEventListener("click", function () {
   ERion.style.display = "flex";
   Projetos.style.display = "none";
   SobreMim.style.display = "none";
-  contato.style.display  = "none";
+  contato.style.display = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
   Angels.style.display = "none";
@@ -270,7 +270,7 @@ retornowhatif.addEventListener("click", function () {
   ERion.style.display = "none";
   Projetos.style.display = "flex";
   SobreMim.style.display = "none";
-  contato.style.display  = "none";
+  contato.style.display = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
   Angels.style.display = "none";
@@ -280,7 +280,7 @@ transferwhatif.addEventListener("click", function () {
   ERion.style.display = "none";
   Projetos.style.display = "none";
   SobreMim.style.display = "none";
-  contato.style.display  = "none";
+  contato.style.display = "none";
   WhatIf.style.display = "flex";
   Bicik.style.display = "none";
   Angels.style.display = "none";
@@ -290,7 +290,7 @@ whatif2.addEventListener("click", function () {
   ERion.style.display = "none";
   Projetos.style.display = "none";
   SobreMim.style.display = "none";
-  contato.style.display  = "none";
+  contato.style.display = "none";
   WhatIf.style.display = "flex";
   Bicik.style.display = "none";
   Angels.style.display = "none";
@@ -300,7 +300,7 @@ erion.addEventListener("click", function () {
   ERion.style.display = "flex";
   Projetos.style.display = "none";
   SobreMim.style.display = "none";
-  contato.style.display  = "none";
+  contato.style.display = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
   Angels.style.display = "none";
@@ -310,7 +310,7 @@ returnbicik.addEventListener("click", function () {
   ERion.style.display = "none";
   Projetos.style.display = "flex";
   SobreMim.style.display = "none";
-  contato.style.display  = "none";
+  contato.style.display = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
   Angels.style.display = "none";
@@ -320,7 +320,7 @@ transferbicik.addEventListener("click", function () {
   ERion.style.display = "none";
   Projetos.style.display = "none";
   SobreMim.style.display = "none";
-  contato.style.display  = "none";
+  contato.style.display = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "flex";
   Angels.style.display = "none";
@@ -330,37 +330,37 @@ bicik2.addEventListener("click", function () {
   ERion.style.display = "none";
   Projetos.style.display = "none";
   SobreMim.style.display = "none";
-  contato.style.display  = "none";
+  contato.style.display = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "flex";
   Angels.style.display = "none";
 })
-angelsTransfer.addEventListener("click", function(){
+angelsTransfer.addEventListener("click", function () {
   home.style.display = "flex";
   ERion.style.display = "none";
   Projetos.style.display = "none";
   SobreMim.style.display = "none";
-  contato.style.display  = "none";
+  contato.style.display = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
   Angels.style.display = "none";
 })
-transferAngels.addEventListener("click", function(){
+transferAngels.addEventListener("click", function () {
   home.style.display = "none";
   ERion.style.display = "none";
   Projetos.style.display = "none";
   SobreMim.style.display = "none";
-  contato.style.display  = "none";
+  contato.style.display = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
   Angels.style.display = "flex"
 })
-AngelsMobile.addEventListener("click", function(){
+AngelsMobile.addEventListener("click", function () {
   home.style.display = "none";
   ERion.style.display = "none";
   Projetos.style.display = "none";
   SobreMim.style.display = "none";
-  contato.style.display  = "none";
+  contato.style.display = "none";
   WhatIf.style.display = "none";
   Bicik.style.display = "none";
   Angels.style.display = "flex";
@@ -610,7 +610,7 @@ chk.addEventListener("change", function Sobre() {
   let github2 = document.querySelector('#github2');
   let subtituloformulario = document.querySelector('#subtituloformulario');
 
-  if(chk.checked == true){
+  if (chk.checked == true) {
     base.style.background = "rgba(255, 255, 255, 0.2)";
     texto3.style.color = '#121212';
     texto4.style.color = '#121212';
@@ -651,16 +651,16 @@ chk.addEventListener("change", function Sobre() {
     btn.addEventListener('mouseleave', function () {
       btn.style.background = '#121212';
     })
-    botaoformulario.addEventListener('mouseenter', function (){
+    botaoformulario.addEventListener('mouseenter', function () {
       botaoformulario.style.background = 'rgba(3, 255, 159, 0.932)';
     })
-    botaoformulario.addEventListener('mouseleave', function (){
+    botaoformulario.addEventListener('mouseleave', function () {
       botaoformulario.style.background = '#121212';
     })
-    base.addEventListener('mouseenter', function (){
+    base.addEventListener('mouseenter', function () {
       base.style.background = 'rgba(255, 255, 255, 0.7)';
     })
-    base.addEventListener('mouseleave', function (){
+    base.addEventListener('mouseleave', function () {
       base.style.background = 'rgba(255, 255, 255, 0.2)';
     })
     etec.src = '/imgs/etecdark.png';
@@ -668,7 +668,7 @@ chk.addEventListener("change", function Sobre() {
     unip.src = '/imgs/unipdark.png';
     fiap.src = '/imgs/fiapdark.png';
   }
-  else{
+  else {
     let btn = window.document.querySelector('.btn');
     base.style.background = "rgba(18, 18, 18, 0.2)";
     texto3.style.color = '#FFFF';
@@ -707,16 +707,16 @@ chk.addEventListener("change", function Sobre() {
     btn.addEventListener('mouseleave', function () {
       btn.style.background = '#FFFF';
     })
-    botaoformulario.addEventListener('mouseenter', function (){
+    botaoformulario.addEventListener('mouseenter', function () {
       botaoformulario.style.background = 'rgba(3, 255, 159, 0.932)';
     });
-    botaoformulario.addEventListener('mouseleave', function (){
+    botaoformulario.addEventListener('mouseleave', function () {
       botaoformulario.style.background = '#FFFF';
     });
-    base.addEventListener('mouseenter', function (){
+    base.addEventListener('mouseenter', function () {
       base.style.background = 'rgba(18, 18, 18, 0.7)';
     })
-    base.addEventListener('mouseleave', function (){
+    base.addEventListener('mouseleave', function () {
       base.style.background = 'rgba(18, 18, 18, 0.2)';
     })
     etec.src = '/imgs/etec.png';
@@ -773,8 +773,8 @@ chk.addEventListener("change", function IConesCores() {
   let tags = window.document.querySelector('#tags');
   let adicional = window.document.querySelector('#adicionais');
 
-  if (chk.checked === true){
-    projeto4.style.background = '#FFFF'; 
+  if (chk.checked === true) {
+    projeto4.style.background = '#FFFF';
     sass.style.color = '#121212';
     git.style.color = '#121212';
     next.src = '/imgs/nextjs-icon.png';
@@ -786,10 +786,10 @@ chk.addEventListener("change", function IConesCores() {
     info4.style.color = '#121212';
     button4.style.color = '#FFFF';
     button4.style.background = '#121212';
-    button4.addEventListener('mouseenter', function(){
+    button4.addEventListener('mouseenter', function () {
       button4.style.background = 'rgba(3, 255, 159, 0.932)';
     })
-    button4.addEventListener('mouseleave', function(){
+    button4.addEventListener('mouseleave', function () {
       button4.style.background = '#121212';
     })
     AngelsBanner.style.background = 'rgba(255, 255, 255, 0.2)';
@@ -823,10 +823,10 @@ chk.addEventListener("change", function IConesCores() {
     info4.style.color = '#FFFF';
     button4.style.color = '#121212';
     button4.style.background = '#FFFF';
-    button4.addEventListener('mouseenter', function(){
+    button4.addEventListener('mouseenter', function () {
       button4.style.background = 'rgba(3, 255, 159, 0.932)';
     })
-    button4.addEventListener('mouseleave', function(){
+    button4.addEventListener('mouseleave', function () {
       button4.style.background = '#FFFF';
     })
     AngelsBanner.style.background = 'rgba(18, 18, 18, 0.2)';
@@ -853,12 +853,34 @@ chk.addEventListener("change", function IConesCores() {
 
 const whatifurl = 'https://gamejolt.com/games/whatifworld/667617';
 const whatifbutton = window.document.getElementsByName('whatif-apk')[0];
+const erionbutton = window.document.getElementsByName('erion')[0];
+const erionsite = 'https://github.com/oiRhyan/erion-blockchain-simulator';
+const bicikurl = 'https://github.com/oiRhyan/bicik-web-site';
+const bicikbutton = window.document.getElementsByName('bicik')[0];
 
 function openApk(whatifurl) {
   const open = window.open(whatifurl, '_blank');
   open.focus();
 }
 
+function openBicik(bicikurl) {
+  const open = window.open(bicikurl, '_blank');
+  open.focus();
+}
+
+function openErion(erionsite) {
+  const open = window.open(erionsite, '_blank');
+  open.focus();
+}
+
+erionbutton.addEventListener('click', () => {
+  openErion(erionsite);
+})
+
 whatifbutton.addEventListener('click', () => {
   openApk(whatifurl);
 });
+
+bicikbutton.addEventListener('click', () => {
+  openBicik(bicikurl);
+})
