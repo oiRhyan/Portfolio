@@ -44,7 +44,7 @@ a{
 .notification {
     opacity: calc(70%);
 	position: absolute;
-	bottom: 560px;
+	bottom: 540px;
 	left: 510px;
 	width: max-content;
 	padding: 20px 15px;              /* CONFIGURA A MENSAGEM ALÉM da Box de fundo */
@@ -184,7 +184,7 @@ a{
     opacity: calc(70%);
 }
 .gg-clipboard:hover, .gg-folder:hover, .gg-home-alt:hover, .gg-voicemail:hover {
-    color: rgba(3, 255, 159, 0.932);
+    color: rgba(0, 238, 255, 0.979);
 }
 /* Configuração da dash bord e da base que segura os dados da parte de cima */
 
@@ -375,7 +375,7 @@ transition: transform 0.2s linear;
 }
 
 .fa-brands:hover{
-    color:rgba(3, 255, 159, 0.932) ;
+    color:rgba(0, 238, 255, 0.979) ;
 }
 
 #background_responsive{
@@ -447,7 +447,7 @@ transition: transform 0.2s linear;
 }
 
 .botao:hover{
-    background-color: rgba(3, 255, 159, 0.932) ;
+    background-color: rgba(0, 238, 255, 0.979);
     color: white;
     border: none;
 }
@@ -505,7 +505,7 @@ transition: transform 0.2s linear;
 }
 
 .botao2:hover{
-    background-color: rgba(3, 255, 159, 0.932) ;
+    background-color: rgba(0, 238, 255, 0.979) ;
     color: white;
     border: none;
 }
@@ -604,7 +604,7 @@ ul.slick-dots li button{
     list-style-type: none;
 }
 ul.slick-dots li.slick-active{
-    background: rgba(3, 255, 159, 0.932);
+    background: rgba(0, 238, 255, 0.979);
     border-radius: 50%;
     list-style-type: none;
 }
@@ -631,12 +631,12 @@ li{
 }
 
 #return-angels:hover{
-    color: rgba(3, 255, 159, 0.932);
+    color: rgba(0, 238, 255, 0.979);
 }
 
 
 #return:hover{
-    color: rgba(3, 255, 159, 0.932);
+    color: rgba(0, 238, 255, 0.979);
 }
 
 .direction{
@@ -707,7 +707,7 @@ li{
 }
 
 #diretorio:hover{
-    background-color: rgba(3, 255, 159, 0.932) ;
+    background-color: rgba(0, 238, 255, 0.979) ;
     color: white;
     border: none;
 }
@@ -726,7 +726,7 @@ li{
 }
 
 #diretorio2:hover{
-    background-color: rgba(3, 255, 159, 0.932) ;
+    background-color: rgba(0, 238, 255, 0.979) ;
     color: white;
     border: none;
 }
@@ -745,7 +745,7 @@ li{
 }
 
 #download:hover{
-    background-color: rgba(3, 255, 159, 0.932) ;
+    background-color: rgba(0, 238, 255, 0.979) ;
     color: white;
     border: none;
 }
@@ -870,7 +870,7 @@ li{
 }
 
 #return_whatif:hover{
-    color: rgba(3, 255, 159, 0.932);
+    color: rgba(0, 238, 255, 0.979);
 }
 
 #whatif4{
@@ -901,7 +901,7 @@ li{
     top: 20px;
 }
 #return_bicik:hover{
-    color: rgba(3, 255, 159, 0.932);
+    color: rgba(0, 238, 255, 0.979);
 }
 #bicikbanner{
     margin-left: 15px;
@@ -944,15 +944,16 @@ li{
 #projetos::-webkit-scrollbar{
         background: transparent;
         border-radius: 2px;
-        width: 5px;
-        height: 5px;
+        width: 10px;
+        height: 12px;
+        overflow-y: none;
 }
 
 #projetos::-webkit-scrollbar-thumb{
         width: 5px;
-        height: 5px;
         background: linear-gradient(90deg, rgba(167,11,150,1) 0%, rgba(101,9,121,1) 39%, rgba(0,212,255,1) 100%);
         border-radius: 10px;
+        overflow-y: none;
 }
 
 .projeto1{
@@ -1138,7 +1139,7 @@ li{
     font-size: 30px;
 }
 .csharp:hover{
-    color: rgba(3, 255, 159, 0.932);
+    color: rgba(0, 238, 255, 0.979);
     margin-top: 295px;
     margin-left: 110px;
     font-family: 'Montserrat';
@@ -1182,7 +1183,7 @@ li{
 }
 
 #transferwhatif:hover{
-    background-color: rgba(3, 255, 159, 0.932);
+    background-color: rgba(0, 238, 255, 0.979);
     color: white;
 }
 
@@ -1201,7 +1202,7 @@ li{
 }
 
 #transferbicik:hover{
-    background-color: rgba(3, 255, 159, 0.932);
+    background-color: rgba(0, 238, 255, 0.979);
     color: white;
 }
 
@@ -1220,7 +1221,7 @@ li{
 }
 
 #transfererion:hover{
-    background-color: rgba(3, 255, 159, 0.932);
+    background-color: rgba(0, 238, 255, 0.979);
     color: white;
 }
 
@@ -1239,7 +1240,7 @@ li{
 }
 
 #transferangels:hover{
-    background-color: rgba(3, 255, 159, 0.932);
+    background-color: rgba(0, 238, 255, 0.979);
     color: white;
 }
 /* FIM DA PARTE DE PROJETOS E INICIO DA PARTE SOBRE MIM */
@@ -1371,7 +1372,7 @@ li{
     border: none;
 }
 .btn:hover{
-    background-color: rgba(3, 255, 159, 0.932) ;
+    background-color: rgba(0, 238, 255, 0.979) ;
     color: white;
     border: none;   
 }
@@ -1594,7 +1595,7 @@ li{
   .form textarea:focus {
     outline: none;
     border-color: none;
-    box-shadow: 0 0 0 3px rgba(3, 255, 159, 0.932);
+    box-shadow: 0 0 0 3px rgba(0, 238, 255, 0.979);
   }
   
   .form button {
@@ -1613,7 +1614,7 @@ li{
   .form button:hover,
   .form button:focus {
     outline: none;
-    background: rgba(3, 255, 159, 0.932);
+    background: rgba(0, 238, 255, 0.979);
     color: white;
   }
 
@@ -2774,7 +2775,7 @@ li{
     .form textarea:focus {
         outline: none;
         border-color: none;
-        box-shadow: 0 0 0 3px rgba(3, 255, 159, 0.932);
+        box-shadow: 0 0 0 3px rgba(0, 238, 255, 0.979);
     }
     
     .form button {
@@ -3247,7 +3248,7 @@ li{
       .form textarea:focus {
         outline: none;
         border-color: none;
-        box-shadow: 0 0 0 3px rgba(3, 255, 159, 0.932);
+        box-shadow: 0 0 0 3px rgba(0, 238, 255, 0.979);
       }
       
       .form button {
@@ -3313,9 +3314,31 @@ li{
         width: 250px;
         font-size: 20px;
     }
+    #projetos::-webkit-scrollbar{
+        position: absolute;
+        background: transparent;
+        border-radius: 2px;
+        width: 10px;
+        height: 12px;
+        overflow-y: none;
+        margin-bottom: 20px;
+}
+
+#projetos::-webkit-scrollbar-thumb{
+        width: 5px;
+        background: linear-gradient(90deg, rgba(167,11,150,1) 0%, rgba(101,9,121,1) 39%, rgba(0,212,255,1) 100%);
+        border-radius: 10px;
+        overflow-y: none;
+}
     #projeto-texto-sub{
         margin-top: 520px;
         font-size: 20px;
+    }
+
+    #return-angels{
+        font-size: 50px;
+        display: flex;
+        height: 20px;
     }
     #sass{
         font-size: 50px;
@@ -3859,7 +3882,7 @@ li{
     }
 
     #return-angels{
-        display: none;
+        
     }
 
     .Angels{

@@ -43,7 +43,7 @@ chk.addEventListener("change", function CheCk() {
     var recenteprojeto = window.document.querySelector("div.projetorecente");
     menu.addEventListener("mouseenter", function () {
       if (chk.checked == true) {
-        menu.style.color = "rgba(3, 255, 159, 0.932)";
+        menu.style.color = "rgba(0, 238, 255, 0.979)";
       }
     });
     menu.addEventListener("mouseleave", function () {
@@ -51,7 +51,7 @@ chk.addEventListener("change", function CheCk() {
     });
     folder.addEventListener("mouseenter", function () {
       if (chk.checked == true) {
-        folder.style.color = "rgba(3, 255, 159, 0.932)";
+        folder.style.color = "rgba(0, 238, 255, 0.979)";
       }
     });
     folder.addEventListener("mouseleave", function () {
@@ -59,7 +59,7 @@ chk.addEventListener("change", function CheCk() {
     });
     info.addEventListener("mouseenter", function () {
       if (chk.checked == true) {
-        info.style.color = "rgba(3, 255, 159, 0.932)";
+        info.style.color = "rgba(0, 238, 255, 0.979)";
       }
     });
     info.addEventListener("mouseleave", function () {
@@ -67,7 +67,7 @@ chk.addEventListener("change", function CheCk() {
     });
     contact.addEventListener("mouseenter", function () {
       if (chk.checked == true) {
-        contact.style.color = "rgba(3, 255, 159, 0.932)";
+        contact.style.color = "rgba(0, 238, 255, 0.979)";
       }
     });
     contact.addEventListener("mouseleave", function () {
@@ -102,7 +102,7 @@ chk.addEventListener("change", function CheCk() {
     contact.style.color = "white";
     menu.addEventListener("mouseenter", function () {
       if (chk.checked == false) {
-        menu.style.color = "rgba(3, 255, 159, 0.932)";
+        menu.style.color = "rgba(0, 238, 255, 0.979)";
       }
     });
     menu.addEventListener("mouseleave", function () {
@@ -110,7 +110,7 @@ chk.addEventListener("change", function CheCk() {
     });
     folder.addEventListener("mouseenter", function () {
       if (chk.checked == false) {
-        folder.style.color = "rgba(3, 255, 159, 0.932)";
+        folder.style.color = "rgba(0, 238, 255, 0.979)";
       }
     });
     folder.addEventListener("mouseleave", function () {
@@ -118,7 +118,7 @@ chk.addEventListener("change", function CheCk() {
     });
     info.addEventListener("mouseenter", function () {
       if (chk.checked == false) {
-        info.style.color = "rgba(3, 255, 159, 0.932)";
+        info.style.color = "rgba(0, 238, 255, 0.979)";
       }
     });
     info.addEventListener("mouseleave", function () {
@@ -126,7 +126,7 @@ chk.addEventListener("change", function CheCk() {
     });
     contact.addEventListener("mouseenter", function () {
       if (chk.checked == false) {
-        contact.style.color = "rgba(3, 255, 159, 0.932)";
+        contact.style.color = "rgba(0, 238, 255, 0.979)";
       }
     });
     contact.addEventListener("mouseleave", function () {
@@ -385,25 +385,25 @@ chk.addEventListener("change", function IConesCores() {
     EriOn.style.background = "rgba(255, 255, 255, 0.2)";
     Bicik.style.background = "rgba(255, 255, 255, 0.2)";
     linkedin.addEventListener("mouseenter", function () {
-      linkedin.style.color = "rgba(3, 255, 159, 0.932)";
+      linkedin.style.color = "rgba(0, 238, 255, 0.979)";
     });
     linkedin.addEventListener("mouseleave", function () {
       linkedin.style.color = "#121212";
     });
     whatsapp.addEventListener("mouseenter", function () {
-      whatsapp.style.color = "rgba(3, 255, 159, 0.932)";
+      whatsapp.style.color = "rgba(0, 238, 255, 0.979)";
     });
     whatsapp.addEventListener("mouseleave", function () {
       whatsapp.style.color = "#121212";
     });
     github.addEventListener("mouseenter", function () {
-      github.style.color = "rgba(3, 255, 159, 0.932)";
+      github.style.color = "rgba(0, 238, 255, 0.979)";
     });
     github.addEventListener("mouseleave", function () {
       github.style.color = "#121212";
     });
     instagram.addEventListener("mouseenter", function () {
-      instagram.style.color = "rgba(3, 255, 159, 0.932)";
+      instagram.style.color = "rgba(0, 238, 255, 0.979)";
     });
     instagram.addEventListener("mouseleave", function () {
       instagram.style.color = "#121212";
@@ -470,31 +470,31 @@ chk.addEventListener("change", function TextoCor() {
     eriontroca.style.background = "#121212";
     eriontroca.style.color = "#FFFF";
     whatiftroca.addEventListener("mouseenter", function () {
-      whatiftroca.style.background = "rgba(3, 255, 159, 0.932)";
+      whatiftroca.style.background = "rgba(0, 238, 255, 0.979)";
     });
     whatiftroca.addEventListener("mouseleave", function () {
       whatiftroca.style.background = "#121212";
     });
     botao.addEventListener("mouseenter", function () {
-      botao.style.background = "rgba(3, 255, 159, 0.932)";
+      botao.style.background = "rgba(0, 238, 255, 0.979)";
     });
     botao.addEventListener("mouseleave", function () {
       botao.style.background = "#121212";
     });
     botao2.addEventListener("mouseenter", function () {
-      botao2.style.background = "rgba(3, 255, 159, 0.932)";
+      botao2.style.background = "rgba(0, 238, 255, 0.979)";
     });
     botao2.addEventListener("mouseleave", function () {
       botao2.style.background = "#121212";
     });
     biciktroca.addEventListener("mouseenter", function () {
-      biciktroca.style.background = "rgba(3, 255, 159, 0.932)";
+      biciktroca.style.background = "rgba(0, 238, 255, 0.979)";
     });
     biciktroca.addEventListener("mouseleave", function () {
       biciktroca.style.background = "#121212";
     });
     eriontroca.addEventListener("mouseenter", function () {
-      eriontroca.style.background = "rgba(3, 255, 159, 0.932)";
+      eriontroca.style.background = "rgba(0, 238, 255, 0.979)";
     });
     eriontroca.addEventListener("mouseleave", function () {
       eriontroca.style.background = "#121212";
@@ -646,13 +646,13 @@ chk.addEventListener("change", function Sobre() {
     github2.style.color = '#121212';
     subtituloformulario.style.color = '#121212';
     btn.addEventListener('mouseenter', function () {
-      btn.style.background = 'rgba(3, 255, 159, 0.932)';
+      btn.style.background = 'rgba(0, 238, 255, 0.979)';
     })
     btn.addEventListener('mouseleave', function () {
       btn.style.background = '#121212';
     })
     botaoformulario.addEventListener('mouseenter', function () {
-      botaoformulario.style.background = 'rgba(3, 255, 159, 0.932)';
+      botaoformulario.style.background = 'rgba(0, 238, 255, 0.979)';
     })
     botaoformulario.addEventListener('mouseleave', function () {
       botaoformulario.style.background = '#121212';
@@ -702,13 +702,13 @@ chk.addEventListener("change", function Sobre() {
     github2.style.color = '#FFFF';
     subtituloformulario.style.color = '#FFFF';
     btn.addEventListener('mouseenter', function () {
-      btn.style.background = 'rgba(3, 255, 159, 0.932)';
+      btn.style.background = 'rgba(0, 238, 255, 0.979)';
     })
     btn.addEventListener('mouseleave', function () {
       btn.style.background = '#FFFF';
     })
     botaoformulario.addEventListener('mouseenter', function () {
-      botaoformulario.style.background = 'rgba(3, 255, 159, 0.932)';
+      botaoformulario.style.background = 'rgba(0, 238, 255, 0.979)';
     });
     botaoformulario.addEventListener('mouseleave', function () {
       botaoformulario.style.background = '#FFFF';
@@ -787,7 +787,7 @@ chk.addEventListener("change", function IConesCores() {
     button4.style.color = '#FFFF';
     button4.style.background = '#121212';
     button4.addEventListener('mouseenter', function () {
-      button4.style.background = 'rgba(3, 255, 159, 0.932)';
+      button4.style.background = 'rgba(0, 238, 255, 0.979)';
     })
     button4.addEventListener('mouseleave', function () {
       button4.style.background = '#121212';
@@ -824,7 +824,7 @@ chk.addEventListener("change", function IConesCores() {
     button4.style.color = '#121212';
     button4.style.background = '#FFFF';
     button4.addEventListener('mouseenter', function () {
-      button4.style.background = 'rgba(3, 255, 159, 0.932)';
+      button4.style.background = 'rgba(0, 238, 255, 0.979)';
     })
     button4.addEventListener('mouseleave', function () {
       button4.style.background = '#FFFF';
@@ -857,6 +857,8 @@ const erionbutton = window.document.getElementsByName('erion')[0];
 const erionsite = 'https://github.com/oiRhyan/erion-blockchain-simulator';
 const bicikurl = 'https://github.com/oiRhyan/bicik-web-site';
 const bicikbutton = window.document.getElementsByName('bicik')[0];
+const angelsurl = 'https://github.com/oiRhyan/ecommerce-streetwear';
+const angels = window.document.getElementsByName('angels')[0];
 
 function openApk(whatifurl) {
   const open = window.open(whatifurl, '_blank');
@@ -868,6 +870,14 @@ function openBicik(bicikurl) {
   open.focus();
 }
 
+function openAngels(angelsurl) {
+  const open = window.open(angelsurl, '_blank');
+  open.focus();
+}
+
+angels.addEventListener('click', () => {
+  openAngels(angelsurl);
+})
 function openErion(erionsite) {
   const open = window.open(erionsite, '_blank');
   open.focus();
